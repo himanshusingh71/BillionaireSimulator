@@ -14,12 +14,17 @@ return (
       Adjusted Item Price = (Your Net Worth × Item Price) / Billionaire's Net Worth
     </p>
     <p className="text-lg leading-relaxed">
+      For example, if a private jet costs $50 million and Elon Musk has a net worth of $250 billion while you have $50,000,
+      the adjusted price for you would be just $10. Why? Because for Musk, spending $50 million is like you spending $10.
+    </p>
+    <p className="text-lg leading-relaxed">
       Buy items and watch your balance shrink — or barely move — just like it would for the ultra-rich. 
     </p>
-        <p className="text-lg leading-relaxed">
+    <p className="text-lg leading-relaxed">
       Once you start purchasing, a “Your Purchases” section will appear, showing everything you've added to your billionaire basket.
     </p>
   </div>
 );
+
 
 }
