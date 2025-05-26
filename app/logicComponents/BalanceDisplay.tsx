@@ -15,9 +15,9 @@ export default function BalanceDisplay() {
    <br /> */}
     {/* Current Balance : ${salary - simulatedBalance} */}
 
-Current Balance : $ {(Number(salary - simulatedBalance).toFixed(5)).toLocaleString('en-US')}
+Current Balance: ${ (Number(salary) - Number(simulatedBalance)).toLocaleString('en-US', { maximumFractionDigits: 5 }) }
     </div>
- <div className="p-4 text-center text-4xl font-semibold bg-green-200"> Money Spent : $ {(Number(simulatedBalance).toFixed(5)).toLocaleString('en-US')}  </div>
+ <div className="p-4 text-center text-4xl font-semibold bg-green-200"> Money Spent : $ {(Number(simulatedBalance)).toLocaleString('en-US', { maximumFractionDigits: 5 })}  </div>
         </>
   );
 }
