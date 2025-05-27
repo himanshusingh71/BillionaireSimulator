@@ -2,7 +2,7 @@
 
 export default function Description() {
 return (
-  <div className="max-w-2xl mx-auto text-center bg-gray-300 text-gray-900 p-6 rounded-2xl space-y-4">
+  <div className="max-w-6xl mx-auto text-center bg-gray-300 text-gray-900 p-6 rounded-2xl space-y-4">
     <h2 className="text-3xl font-bold">Experience Wealth Like a Billionaire</h2>
     <p className="text-lg leading-relaxed">
       This simulator helps you grasp just how insanely rich billionaires are by comparing their net worth to your own.
